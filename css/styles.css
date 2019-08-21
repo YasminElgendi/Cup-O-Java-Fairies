@@ -1,0 +1,39 @@
+body{
+       color:black;
+       font-family: monospace;
+       background-color:white;
+       font-size:1.5em;
+       margin-right: 150px;
+       margin-left: 150px;
+       margin:70px;
+     }
+html{
+  background-color:rgb(88,57,50);
+}
+
+h1,h2{text-align: center;}
+
+
+h1{font-family: fantasy;
+   text-shadow: 0 0 3px #FF0000;}
+
+h2{ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF}
+
+h3{margin:30px;
+ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+}
+p{
+margin-left: 50px;
+}
+
+img{ border-radius: 50%;}
+
+div#shame {
+          width: 600px;
+}
+
+li:hover{
+  font-size:1.2em;
+  transition:2 ease;
+}
+li#unique{ font-style: italic;}
