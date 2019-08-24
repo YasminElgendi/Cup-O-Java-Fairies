@@ -1,0 +1,86 @@
+body{
+     font-style: italic;
+     font-family: monospace;
+     margin-left: 40px;
+
+   }
+
+   p#whats{
+      margin-left: 200px;
+      margin-right:200px;
+    }
+
+   h1{
+      font-family: fantasy;
+      text-shadow: 0 0 3px #FF0000;
+      text-align:left;
+      margin-left: 50px;
+   }
+
+   h2{
+     font-family: fantasy;
+     text-shadow: 0 0 3px #FF0000;
+     text-align:left;
+      margin-left: 50px;
+       }
+
+
+.navbar-brand{
+  margin: -20px;
+  padding: 50px;
+}
+
+.logo{
+  height:52px;
+  padding-right: 400px;
+  padding-left: 15px;
+}
+.navbar-light{
+  height:65px;
+  padding-top: 5px;
+}
+
+p#whats{
+          font-size: 1.4em;
+          margin-left: 55px;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#F0FFFF;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:  #F0FFFF;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
