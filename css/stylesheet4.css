@@ -4,7 +4,7 @@ body{
        font-family: monospace;
        margin-left: 40px;
        background-image: url("../blurry1.jpg");
-       background-repeat: no-repeat
+       background-repeat: repeat
      }
 
         p#whats{
@@ -33,4 +33,4 @@ body{
           text-shadow: 0 0 3px #FF0000;
           text-align:left;
            margin-left: 50px;
-            }
+         }
