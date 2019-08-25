@@ -1,95 +1,30 @@
 body{
-       color:black;
-       font-family: monospace;
-       background-color:white;
-       font-size:1.5em;
+     font-style: italic;
+     font-family: monospace;
+     margin-left: 40px;
+     }
 
+     body, html {
+       background-color:#343a40 !important;
      }
 
 
-h1,h2{text-align: center;}
-
-
 h1{font-family: fantasy;
-   text-shadow: 0 0 3px #FF0000;}
+   text-shadow: 0 0 3px #FF0000;
+   text-align: center;}
 
-h2{ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF}
 
-h3{margin:30px;
- text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
-}
 
-h4{
-    font-family: fantasy;
-     font-size: 1.5em;
+
+   .bg-light.navbar {
+       background-color: #f0ffff !important;
    }
 
 
-
-p{margin-left: 50px;}
-
-
-div#sheefo {
-          width: 600px;
+.bg-img.container{
+  background-image: url(../blurry1.jpg);
+    background-repeat: NO-REPEAT;
+    height: 100%;
+    background-size: cover;
+    padding:0px;
 }
-
-li:hover{
-  font-size:1.2em;
-  transition:2 ease;
-}
-
-div#molaa { background-color:rgb(88,57,50);}
-
-.navbar-brand{
-  margin: -10px;
-  padding: 0px;
-}
-
-.logo{
-  height:52px;
-  padding-right: 400px;
-  padding-left: 10px;
-}
-.navbar-light{
-  height:65px;
-  padding-top: 5px;
-}
-
-
-/* Dropdown Button */
-.dropbtn {
-  background-color:#F0FFFF;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color:  #F0FFFF;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}

@@ -5,9 +5,16 @@ body{
 
    }
 
+   body, html {
+       background-color:#343a40 !important;
+   }
+
+
    p#whats{
       margin-left: 200px;
       margin-right:200px;
+      font-size: 1.4em;
+      margin-left: 55px;
     }
 
    h1{
@@ -25,62 +32,13 @@ body{
        }
 
 
-.navbar-brand{
-  margin: -20px;
-  padding: 50px;
+.bg-light.navbar {
+    background-color: #f0ffff !important;
 }
-
-.logo{
-  height:52px;
-  padding-right: 400px;
-  padding-left: 15px;
+.bg-img.container{
+  background-image: url(../blurry1.jpg);
+    background-repeat: NO-REPEAT;
+    height: 100%;
+    background-size: cover;
+    padding:0px;
 }
-.navbar-light{
-  height:65px;
-  padding-top: 5px;
-}
-
-p#whats{
-          font-size: 1.4em;
-          margin-left: 55px;
-
-}
-
-
-/* Dropdown Button */
-.dropbtn {
-  background-color:#F0FFFF;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color:  #F0FFFF;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
